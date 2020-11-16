@@ -1,0 +1,44 @@
+# 02 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Vacation Calendar activity.
+   The biggest challenge was communication. We had a rough time connecting with each other which resulted in
+   us simply doing it pretty much on our own with some questions and answers via canvas.
+2. For the Game of Life assignment, what advantages do you see in using interfaces to define creature behaviors, rather than subclasses?
+   Interfaces help to make the program more ellaborate without having to be extremely reduntant. Since Java doesn't
+   allow you to inherit more than one class, implementation helps solve that problem.
+3. Did you complete the Stretch Challenge for the Game of Life Assignment? If so, briefly describe what you did, and how you structured your code.
+   I did, it wasn't anything fancy because I was running out of time, but I created a second spawner called the
+   PlagueBearer that, as you could guess, spawns zombies when it kills something.
+4. What did you learn from comparing your code to the teacher's solution?
+   I learned that I need to be patient with my ideas and learning how to implement them. I was struggling with
+   the babies part of the code and managed to get a crappy version of it going, but when I compared it the the
+   instructor's I realized that I had the exact idea as the instructor, just lacking the syntactical knowledge
+   to implement it.
+5. After completing the assignments this week, what questions do you still have?
+   I still want to know how enum's work. I think I understand them as simply a class with a few variables that you
+   can set things too, but I don't fully understand what all I can do with them.
+6. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+   I would add a 3rd dimention with flying creatures that could interact with the land creatures. Maybe if I still
+   had time after that I would add a water area with water creatures and more land creatures to interact with the
+   water creatures.
+7. A common Java interview question is "describe the difference between an interface and an abstract class". How would you answer that question?
+   An interface is is 100% abstract and can't implement any of it's methods whereas and abtract class has methods
+   that can still be implemented in a generic way but further improved in child classes.
+8. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+   The second resource with the long explaination using the Sims gain was very helpful to lay out exactly
+   what an implementation is. I liked the video game example just because I spend a lot of time on them and
+   as such understand them a little better.
+9. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+   The second set of stack overflow questions. Not necessarily because they weren't helpful at all, but
+   because the other sources seemed the most helpful. The stack overflow website in general isn't very
+   visually friendly so it is difficult for my mind to find the informatin I need.
+10. How many hours did you spend on this class this week?
+
+02 Prepare - 1 Hr
+02 Teach - 3 Hr
+02 Prove 1st Attempt - 9 Hrs
+02 Prove 2nd Attempt - 2 Hrs
+02 Ponder - 1 Hrs
+----------------------------
+Total Hours - 16 Hrs
+

@@ -1,0 +1,52 @@
+# 03 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the JSON parsing activity.
+   I would say the biggest challenge was communication. I couldn't even get in contact with anyone to say I
+   worked with a team until our Project team for the semester was set up and we went through everything.
+
+2. For the Prove API assignment, what did you learn about how APIs work?
+   API's are revolutionary in my understanding of coding because it allows me to work with data from other
+   sources. Not just data that I generated from the user. 
+
+3. Did you complete the Stretch Challenge for the Prove API Assignment? If so, briefly describe which method you used.
+   I did not.
+
+4. What did you learn from comparing your code to the teacher's solution?
+   I had a lot of similar ideas. I could have tweaked my display for the weather forecast but I got everything 
+   to a point that was for the most part readable and legitamite information.
+
+5. After completing the assignments this week, what questions do you still have?
+   I am still very curious how to do comments in my java classes. What are the @Example things that I see all
+   the time and what do they do?
+
+6. Aside from the task you completed, what is another use you could see for the API we used?
+   I bet the API we used could be applied to a golfing software. It keeps track of all the golf courses in the world,
+   and what the weather is like at that golf course to display how much difficulty the holes will be. Of course
+   there would most likely be other features like an easy score tracker and game player that had a map of the 
+   particular golf course, what hole you were on, and how many strokes you have taken in comparison with what
+   par is.
+
+7. A common Java interview question is "Describe what an API is and how it's used". (Sometimes people refer to these types of APIs as "REST APIs") How would you answer that question?
+   An API is a data location that anyone with credentials can pull from to develop software that uses the data in
+   a way to benefit users.
+
+8. Of all of the resources in this week's reading, which was the _most_ helpful to you and why?
+   The UML diagrams and videos that Brother Macbeth posts are very helpful. I get lost in reading things, my mind
+   wanders. Having a visual or a video with someone speaking and showcasing what they are talking about helps
+   things click way better.
+
+9. Of all of the resources in this week's reading, which was the _least_ helpful to you and why?
+   Everything was to some degree helpful, but the least helpful would be some of the stack overflow posts that
+   we could look at. Don't get me wrong I am glad it showed me how to GET an API, but it was for a very particular
+   case.
+
+10. How many hours did you spend on this class this week?
+
+01 Prepare - 1.5 Hrs
+01 Teach - 2.0 Hrs
+01 Prove 1st Attempt - 15 Hrs
+01 Prove 2nd Attempt - 1 Hr
+01 Ponder - .5 Hrs
+----------------------------
+Total Hours - 20 Hrs
+

@@ -1,0 +1,49 @@
+# 01 Ponder : Weekly Reflection
+
+1. For the NSA Cryptography assignment, what did you learn about how Java parameter passing differs from C++?
+
+It is very similar to C++ paramater passing.
+
+2. Did you complete the Stretch Challenge for the NSA Cryptography? If so, briefly describe what you did, and how you structured your code.
+
+I attempted to complete it but I didn't manage to get to it because of the lack of time for me.
+
+3. What did you learn from comparing your code to the teacher's solution?
+
+I learned more about how to handle throws, catches, and exccpetions. They have never been a strong suit of mine and it was
+good to see it implemented in Java as well since this is a new language and something that I am not familiar with.
+
+4. After completing the assignments this week, what questions do you still have?
+
+The Scanner object was a little confusing to me, as far as I understand it is like the getline() function, but
+still that function and its capabilities are very new to me so I'd like to learn more about it.
+
+5. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+
+I would add an allowed attempts feature, as well as a "I'm not a robot" button. On top of that I would add a 6 month
+password reset feature to ensure more security for the NSA.
+
+6. A common Java interview question is "What are javadocs and when should they be used?". How would you answer that question?
+
+I'm not entirely sure, but from what I understand it allows API documentation in HTML in your Java file. It doesn't
+affect the programs performance because the compiler gets rid of all the comments in the code.
+
+7. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+
+The video that Brother Macbeth posted was a life saver. I didn't know where I was going to start after downloading
+the JDK and getting the IDE ready to go.
+
+8. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+
+The Hello World Assignment. I did it but didn't know if I did everything. I could've read throught the directions better
+but I think I missed something there
+
+9. How many hours did you spend on this class this week?
+
+01 Prepare - 1 Hr
+01 Prove 1st Attempt - 1 Hr
+01 Prove 2nd Attempt - 3 Hrs
+01 Ponder - 1 Hr
+----------------------------
+Total Hours - 6 Hrs
+
