@@ -1,0 +1,33 @@
+/***********************************************************************
+* Program:
+*    Assignment 12, INPUT
+*    Sister Hansen, cs 124
+* Author:
+*    Lance Bunch
+* Summary: 
+*   This program is to take a basic number from a user and display it back in a complete sentence and in a neat way. 
+*    
+*    Estimated:  1.5 hrs   
+*    Actual:     0.0 hrs
+*      The most difficult part was thinking in my head how far apart everything was going to be. I don't have graph paper on me so I had to do it mentally. After some strain, however, I was able to figure it out.
+************************************************************************/
+
+#include <iostream>
+#include <iomanip> //Allows me to use the setw() function
+using namespace std;
+
+/**********************************************************************
+ * The main runs everything in the program since there isn't any other funtions.
+ ***********************************************************************/
+int main()
+{
+   cout.setf(ios::fixed);        //gets rid of scientific notation
+   cout.setf(ios::showpoint);    //decimal point required whenever a number is displayed
+   cout.precision(2);            //go two digits after the decimal
+   
+   cout << "\tYour monthly income: ";
+      double income;
+      cin >> income;
+      cout << "Your income is: $" << setw(9) << income;
+   return 0;
+}

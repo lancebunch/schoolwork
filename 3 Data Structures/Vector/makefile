@@ -1,0 +1,26 @@
+###############################################################
+# Program:
+#     Week 01, Vector
+#     Brother Ercanbrack, CS235
+# Author:
+#     Lance Bunch
+# Summary:
+#     This is a container. It has the ability to increase in size,
+#		delete things, look at different things in it, and so forth.
+# Time:
+#     6.5 Hrs
+###############################################################
+
+##############################################################
+# The main rule
+##############################################################
+a.out: vector.h week01.o
+	g++ -o a.out week01.o -std=c++11
+	tar -cf week01.tar vector.h week01.cpp makefile
+
+##############################################################
+# The individual components
+#      week01.o     : the driver program
+##############################################################
+week01.o: vector.h week01.cpp
+	g++ -c week01.cpp -std=c++11
