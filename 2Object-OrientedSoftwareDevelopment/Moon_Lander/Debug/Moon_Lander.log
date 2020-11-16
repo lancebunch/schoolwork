@@ -1,0 +1,5 @@
+﻿  lander.cpp
+c:\users\lance\source\repos\moon_lander\moon_lander\lander.cpp(93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\lance\source\repos\moon_lander\moon_lander\lander.cpp(106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\lance\source\repos\moon_lander\moon_lander\lander.cpp(119): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Moon_Lander.vcxproj -> C:\Users\lance\source\repos\Moon_Lander\Debug\Moon_Lander.exe

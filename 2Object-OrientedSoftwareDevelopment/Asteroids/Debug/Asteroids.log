@@ -1,0 +1,8 @@
+﻿  rocks.cpp
+c:\users\lance\source\repos\asteroids\asteroids\rocks.cpp(29): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\lance\source\repos\asteroids\asteroids\rocks.cpp(30): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\lance\source\repos\asteroids\asteroids\rocks.cpp(65): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\lance\source\repos\asteroids\asteroids\rocks.cpp(66): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\lance\source\repos\asteroids\asteroids\rocks.cpp(101): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\lance\source\repos\asteroids\asteroids\rocks.cpp(102): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  Asteroids.vcxproj -> C:\Users\lance\source\repos\Asteroids\Debug\Asteroids.exe
