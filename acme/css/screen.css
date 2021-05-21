@@ -1,0 +1,274 @@
+/***************************************************
+* Table of COntents
+* 1.--Imports
+* 2.--General Styles
+* --2a.--Navigatioin
+* --2b.--Body Content
+* --2c.--Footer Content
+* 3.--Mobile First 
+* 4.--Large Screen
+****************************************************/
+/* 1.  Imports (fonts and supplementary stylesheets) */
+/* 1.1 Normalize Import */
+@import url('normalize.css');
+/* 1.2 Google Font Import */
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+/* General Styles */
+html {
+   box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: inherit;
+}
+
+/* Naviagation */
+nav {
+   background-color: #de2226;
+   padding-top: 1px;
+   padding-bottom: 1px;
+}
+
+nav ul,
+nav li,
+#feat-adv ul,
+#feat-adv li {
+   text-decoration: none;
+   list-style: none;
+   padding-left: 0px;
+}
+
+#nav-style {
+   padding-left: 0;
+   padding-right: 22%;
+   display: flex;
+   justify-content: space-around;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: white;
+   text-decoration: underline;
+}
+
+nav a:visited {
+   color: white;
+   text-decoration: none;
+}
+
+/* Body Content */
+body {
+   font-family: helvetica, verdana, sans-serif;
+   font-size: 1.2em;
+   margin-left: 1em;
+   margin-right: 1em;
+   background-image: url("../images/site/background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#body-div {
+   background-color: white;
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+#main-page {
+   position: relative;
+}
+
+#featured-image {
+   height: 100%;
+   width: 100%;
+}
+
+#feat-adv {
+   color: #de2226;
+   position: absolute;
+   margin-top: 27px;
+   right: auto;
+   left: 64%;
+   top: 0;
+   bottom: 605px;
+   padding-left: 0px;
+}
+
+#actionbtn {
+   width: 100%;
+}
+
+#review-head {
+   margin-top: 0px;
+}
+
+#recipe-head {
+   margin: 0px;
+}
+
+#recipes {
+   display: flex;
+   width: 320px;
+   flex-wrap: wrap;
+}
+
+#pulledBBQ,
+#potPie,
+#soup,
+#tacos {
+   width: 156px;
+   text-align: center;
+   margin-left: 2px;
+   margin-right: 2px;
+}
+
+#pBBQ,
+#pp,
+#s,
+#t {
+   background-color: #cdcbcd;
+   padding-right: 45px;
+   padding-left: 45px;
+}
+
+dd {
+   margin-left: 0px;
+}
+
+#content-title {
+   margin: 0px;
+   position: relative;
+}
+
+#featuredImage {
+   max-width: 960px;
+}
+
+#main-seperate {
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: sansita, Eurostyle, sans-serif;
+}
+
+#product-img {
+   width: 70%;
+   padding-left: 38px;
+}
+
+#description {
+   font-size: 100%;
+}
+
+#manNrev {
+   list-style: none;
+}
+
+#manu-const,
+#rev-const {
+   font-weight: bold;
+}
+
+#manufacturer,
+#revs {
+   font-weight: normal;
+}
+
+#price {
+   color: red;
+}
+
+/* Footer Content */
+footer {
+   text-align: center;
+}
+
+p {
+   font-size: 15px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.hide {
+   display: none;
+}
+
+/* Mobile Rules */
+@media screen and (max-width: 759px) {
+   #nav-style {
+      padding-right: 0px;
+   }
+
+   ul,
+   li {
+      font-size: 15px;
+   }
+
+   body {
+      margin: 0px;
+   }
+
+   p {
+      font-size: 10px;
+   }
+
+   #feat-adv {
+      top: -19px;
+   }
+
+   #feat-adv li {
+      font-size: 2.5vw;
+   }
+}
+
+/* Larger Rules */
+@media screen and (min-width: 760px) {
+   #reviewsNrecipes {
+      display: flex;
+      flex-direction: row-reverse;
+   }
+
+   #product-display {
+      display: flex;
+      padding-bottom: 80px;
+   }
+
+   #product-img {
+      width: 40%;
+      height: 325px;
+   }
+
+   #product-2nd {
+      padding-left: 2%;
+   }
+
+   #manNrev {
+      padding-left: 0px;
+   }
+
+   #description,
+   #manNrev {
+      font-size: 200%;
+      padding-right: 30px;
+   }
+
+   #price {
+      font-size: 300%;
+   }
+}
