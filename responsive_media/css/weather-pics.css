@@ -1,0 +1,60 @@
+/***************************************************
+* Table of Contents
+* 1.--Imports
+* 2.--General Styles
+* --2a.--Navigatioin
+* --2b.--Current Weather
+* --2c.--Wind Styles
+* 3.--Mobile First 
+* 4.--Large Screen
+****************************************************/
+/* 1.  Imports (fonts and supplementary stylesheets) */
+/* 1.1 Normalize Import */  
+@import url('normalize.css');    
+/* 1.2 Google Font Import */    
+@import url('https://fonts.googleapis.com/css?family=Sansita'); 
+
+/* 2. General Styles */
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after{
+   box-sizing: inherit
+}
+
+nav, ul, li{
+   text-decoration: none;
+   list-style: none;
+   padding-left: 0px;
+}
+
+body{
+   font-family: helvetica, verdana, sans-serif;
+   font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: sansita, Eurostyle, sans-serif;
+}
+
+main{
+   margin: 0px 5px;
+}
+
+img{
+   width: 100%;
+   height: auto;
+}
+
+@media only screen and (max-width: 760px) {
+   .large {
+     display: none;
+   }
+ }
+
+@media only screen and (min-width: 760.01px) {
+   .small {
+     display: none;
+   }
+}
