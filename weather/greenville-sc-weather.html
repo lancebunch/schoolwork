@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title id="page-title"> | Local Weather</title>
+  <meta name="description" content="Latest weather information">
+  <meta name="viewport" content="width=device-width">
+  <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+  <header id="page-header">
+    <img id="logo" src="img/plan-images/logo.jpeg" alt="The Weather Site Logo">
+    <h1 id="SiteName">The Weather Site</h1>
+  </header>
+  <nav id="navigation">
+    <ul id="style">
+      <li id="current"><a href="index.html" title="Go to the Weather Site home page">Current</a></li>
+      <li id="search"><a href="#" title="Find the weather in a different location">Search</a></li>
+      <li id="franklin"><a href="greenville-sc-weather.html" title="Go to Franlkin, ID's Weather">Franklin</a></li>
+      <li id="greenville"><a href="greenville-sc-weather.html" title="Go to Greenville, SC's Weather">Greenville</a>
+      </li>
+      <li id="springfield"><a href="greenville-sc-weather.html" title="Go to Springfield, IL's Weather">Springfield</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="status">Please click 'Greenville' one more time...</section>
+
+  <main id="main-content" class="hide">
+    <section id="area">
+      <h2 id="town">Missing</h2>
+      <dl id="localData">
+        <dt id="zip-label">Zip:</dt>
+        <dd id="zip">Missing</dd>
+        <dt id="elevation-label">Elevation:</dt>
+        <dd><span id="elevation"></span></dd>
+        <dt id="location-label">Location:</dt>
+        <dd id="location">Missing</dd>
+      </dl>
+    </section>
+    <div id="tileFormat" class="forecast">
+      <section id="mainWeather" class="tile">
+        <h2 id="tempHead">Temperature</h2>
+        <div><span id="currentTemp">Missing</span>&deg;F</div>
+        <ul id="todayForecast">
+          <li><span id="forecastHigh">Missing</span>&deg;F</li>
+          <li><span id="forecastLow">Missing</span>&deg;F</li>
+        </ul>
+        <p id="feel">Feels Like: <span id="feelsLike"></span> &deg;F</p>
+      </section>
+      <section id="mainWind" class="tile">
+        <h2 id="windHeader">Wind</h2>
+        <div id="dial" class="#"></div>
+        <ul>
+          <li id="windSpeed"></li>
+          <li id="windDirection"><b>Direction:</b> <span id="wd"></span></li>
+          <li id="windGusts"><b>Gusts</b> <span id="gusts"></span></li>
+        </ul>
+      </section>
+      <section id="summary" class="tile">
+        <h2 id="currentCondition">Missing</h2>
+        <img id="conditionVisual" src="img/plan-images/raindrops.jpg" alt="Rainy Day">
+        <div id="sumText">Missing</div>
+      </section>
+    </div>
+    <section id="hourlyForecast" class="tile">
+      <h3 id="HFHeader">Hourly Forecast</h3>
+      <ol id="averageHF">
+      </ol>
+    </section>
+  </main>
+  <footer id="footer">
+    &copy;2019 -- The Weather Site
+  </footer>
+  <script src="js/functions.js"></script>
+  <script src="js/localdata.js"></script>
+</body>
+
+</html>
